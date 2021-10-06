@@ -30,7 +30,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <a href="https://website.cfo.org.br/contato/" target="_blank">
+          <a href="https://website.cfo.org.br/contato/" title="Entre em contato com o CFO" target="_blank">
             <span class="mr-2 fa fa-map-marker"></span> 
             <span class="d-none d-md-inline-block">Brasília - DF</span>
             <span class="mx-md-2 d-inline-block"></span>
@@ -43,11 +43,11 @@
             <span class="d-none d-md-inline-block">cfo@cfo.org.br</span>
           </a>
           <div class="float-right">
-            <a href="https://www.facebook.com/cfodontologia" target="_blank"><span class="mr-3 icon-facebook"></span></a>
-            <a href="https://www.instagram.com/cfo_conselhodeodontologia/" target="_blank"><span class="mr-3 icon-instagram"></span></a>
-            <a href="https://twitter.com/odontologia_cfo" target="_blank"><span class="mr-3 icon-twitter"></spa></a>
-            <a href="https://www.youtube.com/user/tvcfo" target="_blank"><span class="mr-3 icon-youtube"></spa></a>
-            <a href="https://www.flickr.com/photos/cfobrasil/" target="_blank"><span class="icon-flickr"></spa></a>
+            <a href="https://www.facebook.com/cfodontologia" title="Facebook do CFO" target="_blank"><span class="mr-3 icon-facebook"></span></a>
+            <a href="https://www.instagram.com/cfo_conselhodeodontologia/" title="Instagram do CFO" target="_blank"><span class="mr-3 icon-instagram"></span></a>
+            <a href="https://twitter.com/odontologia_cfo" title="Twitter do CFO" target="_blank"><span class="mr-3 icon-twitter"></spa></a>
+            <a href="https://www.youtube.com/user/tvcfo" title="YouTube do CFO" target="_blank"><span class="mr-3 icon-youtube"></spa></a>
+            <a href="https://www.flickr.com/photos/cfobrasil/" title="Flickr do CFO" target="_blank"><span class="icon-flickr"></spa></a>
           </div>
         </div>
       </div>
@@ -65,11 +65,11 @@
         </div>
         <!-- Mavbar (Menu) -->
         <div class="col-12">
-          <nav class="site-navigation text-right ml-auto " role="navigation">
+          <nav class="site-navigation text-right ml-auto" role="navigation">
             <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
               <li><a href="https://website.cfo.org.br/" title="Ir para o site principal do CFO" class="nav-link">Site Principal</a></li>
               <li class="has-children">
-                <a href="#about-section" class="nav-link">Serviços</a>
+                <a href="#" class="nav-link">Serviços</a>
                 <ul class="dropdown arrow-top">
                   <li><a href="https://website.cfo.org.br/profissionais-cadastrados/" target="_blank" class="nav-link">Consulta aos Profissionais e Entidades Cadastradas</a></li>
                   <li class="has-children">
@@ -112,7 +112,7 @@
                 </ul>
               </li>
               <li class="has-children">
-                <a href="#about-section" class="nav-link">Legislações</a>
+                <a href="#" class="nav-link">Legislações</a>
                 <ul class="dropdown arrow-top">
                   <li><a href="https://website.cfo.org.br/leis-federais/" target="_blank" class="nav-link">Leis Federais</a></li>
                   <li><a href="https://website.cfo.org.br/regimentos/" target="_blank" class="nav-link">Regimentos</a></li>
@@ -124,14 +124,6 @@
                   <li><a href="https://website.cfo.org.br/ans/" target="_blank" class="nav-link">ANS</a></li>
                   <li><a href="https://website.cfo.org.br/anvisa/" target="_blank" class="nav-link">Anvisa</a></li>
                   <li><a href="https://website.cfo.org.br/certificacao-digital/" target="_blank" class="nav-link">Certificação Digital</a></li>
-                  <li class="has-children">
-                    <a href="#">Mais Links</a>
-                    <ul class="dropdown">
-                      <li><a href="#">Teste</a></li>
-                      <li><a href="#">Teste</a></li>
-                      <li><a href="#">Teste</a></li>
-                    </ul>
-                  </li>
                 </ul>
               </li>              
               <li><a href="https://website.cfo.org.br/noticias/" target="_blank" class="nav-link">Notícias</a></li>
@@ -142,7 +134,7 @@
         </div>
         <div class="toggle-button d-inline-block d-lg-none">
           <a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black">
-            <span class="icon-menu h3"></span>
+            <span class="icon-menu h3" style="color: #696969 !important;"></span>
           </a>
         </div>
       </div>
@@ -193,7 +185,7 @@
   <!-- Footer -->
   <footer class="text-center" style="font-size: 15px; color: #fff; background-color: #8d0f12;">
     <div class="text-center p-4">
-      Copyright © 2021 CFO (Conselho Federal de Odontologia)
+      Copyright © <?= date('Y'); ?> CFO (Conselho Federal de Odontologia)
       <br>
       Lote 2, Quadra CA-07, Centro de Atividades do Setor de Habitações Individuais Norte Lago Norte, Brasília – DF,
       Cep: 71.503-507
