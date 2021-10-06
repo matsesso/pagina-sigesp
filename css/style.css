@@ -44,6 +44,13 @@ a {
   background-position: center center;
   background-repeat: no-repeat;}
 
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  font-size: 14px;
+  color: #fff !important;
+  border-color: #8d0f12 !important;
+  background-color: #8d0f12 !important;
+}
+
 .top-bar {
   padding: .8rem 0;
   background: #8d0f12; }
