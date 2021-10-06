@@ -59,7 +59,7 @@
       <div class="row align-items-center position-relative">
         <!-- Logo -->
         <div class="site-logo">
-          <a href="index.html" class="text-black">
+          <a href="index.php" class="text-black">
             <img style="width:85%;height:85%;" src="images/logo.png"/>
           </a>
         </div>
